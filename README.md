@@ -4,7 +4,7 @@ Add the **pdf417** plugin to your project:
 
 	cd <path_to_your_project>
 	
-    cordova plugin add https://github.com/alejonext/pdf417-phonegap
+    cordova plugin add https://github.com/elanclarkson/pdf417-phonegap
 
 ### Android
 
@@ -36,7 +36,7 @@ cordova create testcordova
 cd testcordova
 
 # add the pdf417 plugin
-cordova plugin add https://github.com/alejonext/pdf417-phonegap
+cordova plugin add https://github.com/elanclarkson/pdf417-phonegap
 
 # add android support to the project
 cordova platform add android
