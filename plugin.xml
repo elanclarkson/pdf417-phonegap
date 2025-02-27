@@ -60,8 +60,6 @@
 
         <framework src="src/android/libPdf417Mobi.gradle" custom="true" type="gradleReference" />
         <resource-file src="src/android/pdf417-android/LibPdf417Mobi.aar" target="aar/LibPdf417Mobi.aar" />
-        
-        <hook type="after_prepare" src="scripts/fix-largeheap.js" />
     </platform>
 
     <platform name="ios">
