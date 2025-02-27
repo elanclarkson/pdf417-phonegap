@@ -98,7 +98,7 @@ After that, you just need to add _PDF417.mobi_ as a dependency to your applicati
 
 ```
 dependencies {
-    compile('com.microblink:pdf417.mobi:6.1.0@aar') {
+    implementation('com.microblink:pdf417.mobi:6.1.0@aar') {
     	transitive = true
     }
 }

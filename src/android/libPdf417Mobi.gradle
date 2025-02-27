@@ -6,8 +6,8 @@ repositories{
 }
 
 dependencies {
-   compile(name:'LibPdf417Mobi', ext:'aar')
-   compile 'com.android.support:appcompat-v7:25.0.0'
+   implementation(name:'LibPdf417Mobi', ext:'aar')
+   implementation 'com.android.support:appcompat-v7:25.0.0'
 }
 
 android {
