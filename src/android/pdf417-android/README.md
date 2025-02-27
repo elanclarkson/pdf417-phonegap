@@ -82,7 +82,7 @@ The library contains one activity: `Pdf417ScanActivity`. It is responsible for c
 
 ## <a name="mavenIntegration"></a> Integrating _PDF417.mobi_ into your project using Maven
 
-Maven repository for _PDF417.mobi_ SDK is: [http://maven.microblink.com](http://maven.microblink.com). If you do not want to perform integration via Maven, simply skip to [Android Studio integration instructions](#quickIntegration) or [Eclipse integration instructions](#eclipseIntegration).
+Maven repository for _PDF417.mobi_ SDK is: [https://maven.microblink.com](https://maven.microblink.com). If you do not want to perform integration via Maven, simply skip to [Android Studio integration instructions](#quickIntegration) or [Eclipse integration instructions](#eclipseIntegration).
 
 ### Using gradle or Android Studio
 
@@ -90,7 +90,7 @@ In your `build.gradle` you first need to add _PDF417.mobi_ maven repository to r
 
 ```
 repositories {
-	maven { url 'http://maven.microblink.com' }
+	maven { url 'https://maven.microblink.com' }
 }
 ```
 
@@ -136,7 +136,7 @@ Open your `pom.xml` file and add these directives as appropriate:
 <repositories>
    	<repository>
        	<id>MicroblinkRepo</id>
-       	<url>http://maven.microblink.com</url>
+       	<url>https://maven.microblink.com</url>
    	</repository>
 </repositories>
 
